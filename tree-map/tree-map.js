@@ -49,9 +49,6 @@ Tree.prototype.map = function(func) {
   })
 };
 
-
-
-
     var root1 = new Tree(1);
     var branch2 = root1.addChild(2);
     var branch3 = root1.addChild(3);
