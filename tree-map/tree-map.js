@@ -61,7 +61,7 @@ Tree.prototype.map = function(func) {
     var leaf7 = branch3.addChild(7);
     var newTree = root1.map(function (value) {
       return value * 2;
-    })
+    }) 
    newTree.value // 2
    newTree.children[0].value // 4
    newTree.children[1].value // 6
