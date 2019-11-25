@@ -28,10 +28,12 @@
   *  root1.value // still 1
   */
 
+// I tarid to do it like we did in the sprint but I don't know how.
+
 var Tree = function(value) {
   this.value = value;
   this.children = [];
 };
-
-
-
+Tree.prototype.addChild = function(value) {
+	
+}
