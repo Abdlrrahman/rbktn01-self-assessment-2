@@ -39,4 +39,7 @@ Tree.prototype.addChild = function(value) {
   if (!this.children) {
     this.children.push(newValue); 
   }
+  if (this.children.addChild(value)) {
+    return this.children.addChild(value); 
   }
+};
