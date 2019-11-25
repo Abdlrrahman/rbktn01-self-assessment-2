@@ -43,3 +43,8 @@ Tree.prototype.addChild = function(value) {
     return this.children.addChild(value); 
   }
 };
+Tree.prototype.map = function(func) {
+  _.map(func, function(element) {
+    return addChild(element);
+  })
+};
